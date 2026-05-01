@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/s"
+        android:letterSpacing="0.05"
+        android:text="Android Lesson 27-04-2026\n by Aslzoda"
+        android:textColor="#3A3A3C"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:fontFamily="@font/chrsuty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="System Update"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#1D1D1F" />
+
+            <TextView
+                android:fontFamily="@font/a"
+                android:id="@+id/sizeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Version 17.4 • 1.2 GB"
+                android:textColor="#8E8E93"
+                android:layout_marginBottom="25dp" />
+
+            <ProgressBar
+                android:id="@+id/circularProgressBar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminateTint="#007AFF"
+                android:layout_marginBottom="20dp" />
+
+            <ProgressBar
+                android:id="@+id/horizontalProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:progressDrawable="@drawable/custom_progress_drawable"
+                android:progress="0" />
+
+            <TextView
+                android:fontFamily="@font/s"
+                android:id="@+id/percentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#007AFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#007AFF"
+        android:fontFamily="@font/d"
+        android:text="Download and Install"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
