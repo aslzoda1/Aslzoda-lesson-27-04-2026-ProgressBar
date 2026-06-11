@@ -1,9 +1,13 @@
 
-<h1 align="center"> 🚀 Real-World Android UI Implementation 🔥 </h1>
+<h1 align="center"> 🚀 𝑹𝒆𝒂𝒍-𝑾𝒐𝒓𝒍𝒅 𝑨𝒏𝒅𝒓𝒐𝒊𝒅 𝑼𝑰 𝑰𝒎𝒑𝒍𝒆𝒎𝒆𝒏𝒕𝒂𝒕𝒊𝒐𝒏 🔥 </h1>
 
 <p align="center">
   <b>Modern Android Architecture • Interactive UI Components • UX Mastery</b>
 </p>
+
+
+https://www.youtube.com/watch?v=xXRgXKYtxpQ
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Date-27.04.2026-blue?style=for-the-badge&logo=calendar" />
